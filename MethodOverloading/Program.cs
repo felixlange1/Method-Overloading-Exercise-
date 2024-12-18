@@ -36,6 +36,15 @@
             bool yesNo = yesOrNo == "yes";
             string result = Add(num1, num2, yesNo);
             Console.WriteLine(result);
+
+            Console.WriteLine(Add(5, 3, true));
+            
+            Console.WriteLine(Add(4, 2) + " dollars");
+            
+            Console.WriteLine(Add(1.3m, 4.6m) + " dollars");
+            
+            
+            
         }
     }
 }
